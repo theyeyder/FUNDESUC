@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fundesuc | Inicio</title>
+
+  <!-- Fuente y Bootstrap -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Estilos compartidos -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Estilos específicos del inicio -->
+  <style>
+    /* Animación suave del fondo del hero */
+    .hero {
+      background: radial-gradient(circle at top left, #e3f6f8 0, #f5f7fb 55%, #ffffff 100%);
+      background-size: 200% 200%;
+      animation: heroGradient 10s ease-in-out infinite;
+    }
+
+    @keyframes heroGradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Banda de estadísticas */
+    .stats-band {
+      background-color: #ffffff;
+      box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+      border-radius: 1.4rem;
+      padding: 1.5rem 1.8rem;
+      margin-top: -2rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    .stat-item {
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .stat-label {
+      font-size: 0.85rem;
+      color: #6b7280;
+    }
+
+    /* Tarjetas de “Qué hacemos” */
+    .what-card {
+      border-radius: 1.2rem;
+      padding: 1.3rem 1.1rem;
+      background-color: #ffffff;
+      box-shadow: 0 14px 32px rgba(15, 23, 42, 0.06);
+      height: 100%;
+    }
+
+    .what-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 999px;
+      background-color: var(--primary-soft);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0.6rem;
+      font-size: 1.2rem;
+    }
+
+    /* Testimonios */
+    .testimonial-card {
+      border-radius: 1.3rem;
+      background-color: #fdfdfdf6;
+      padding: 1.5rem 1.4rem;
+      box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+      height: 100%;
+      font-size: 0.9rem;
+    }
+
+    .testimonial-author {
+      font-weight: 600;
+      margin-top: 0.6rem;
+      font-size: 0.85rem;
+    }
+
+    /* Aliados */
+    .ally-strip {
+      background-color: #ffffff;
+      border-radius: 1.4rem;
+      padding: 1rem 1.5rem;
+      box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
+    }
+
+    .ally-logo {
+      height: 32px;
+      opacity: 0.7;
+      filter: grayscale(100%);
+    }
+
+    /* Botón flotante WhatsApp */
+    .whatsapp-float {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background-color: #f7f7f7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 1.5rem;
+      text-decoration: none;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+      z-index: 20;
+    }
+  </style>
+</head>
+<body>
+
+  
+
+  <!-- CABECERA -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="Index.html">
+        <div class="logo-mini">
+          <img src="Ima/logo-fundesuc.png" alt="Logo Fundesuc">
+        </div>
+        <span>Fundesuc</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+        <ul class="navbar-nav gap-lg-3">
+          <li class="nav-item"><a class="nav-link active" href="Index.html"> <b>Inicio</b></a></li>
+          <li class="nav-item"><a class="nav-link" href="Nosotros.html"><b>Nosotros</b></a></li>
+          <li class="nav-item"><a class="nav-link" href="Servicios.html"><b>Servicios</b></a></li>
+          <li class="nav-item"><a class="nav-link" href="Galeria.html"><b>Galería</b></a></li>
+          <li class="nav-item"><a class="nav-link" href="Contacto.html"><b>Contacto</b></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- HERO SUPERIOR DE Nuestro FRANJA -->
+  <section class="policy-hero">
+    <div class="container text-center">
+      <h1 class="policy-hero-title">
+        Fundesuc<br>
+      </h1>
+    </div>
+  </section>
+
+  <!-- INICIO -->
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-tag">
+              <span>Fundación sin ánimo de lucro</span>
+            </div>
+            <h1 class="hero-title mb-2">
+              Cuidamos y fortalecemos <span class="hero-highlight">familias y comunidades</span>.
+            </h1>
+            <p class="hero-subtitle mb-3">
+              Fundesuc acompaña a niños, niñas y familias en situación de vulnerabilidad mediante programas
+              de educación, nutrición y desarrollo comunitario con enfoque humano y solidario.
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="hero-badge">+1.200 personas beneficiadas</span>
+              <span class="hero-badge">+80 voluntarios activos</span>
+            </div>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="Servicios.html" class="btn btn-primary-soft">Servicios Fundesuc</a>
+              <a href="Nosotros.html" class="btn btn-outline-soft"><b>Quiénes somos</b></a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row g-3">
+              <div class="col-12">
+                <!-- VIDEO PRINCIPAL -->
+                <div class="ratio ratio-16x9 rounded-4 overflow-hidden">
+                  <iframe src="Videos/Video-inicio.mp4"
+                          title="Video de Fundesuc"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          allowfullscreen></iframe>
+                </div>
+              </div>
+              <!---para que la imagenes pasen automaticas despues de unos segundos-->
+              <div id="carouselFundesuc" class="carousel slide carousel-clientes" data-bs-ride="carousel" data-bs-interval="4000">
+
+                <div class="col-12">
+                  <!-- Tarjetas de servicios rápidas -->
+                  <div class="row g-3">
+                
+                    <!-- PROGRAMA ADULTO MAYOR -->
+                    <div class="col-md-4">
+                      <div class="card-service">
+                        <div class="card-service-icon">
+                          <img src="Ima/icon-adulto-mayor.png" alt="Programa Adulto Mayor" class="icon-mini">
+                        </div>
+                        <h6 class="mb-1"><b>Programa Adulto Mayor</b></h6>
+                        <p style="font-size:0.82rem;" class="mb-0">
+                         Ayuda económica a adultos mayores en estado de vulnerabilidad o pobreza extrema que no tienen pensión
+                        </p>
+                      </div>
+                    </div>
+                
+                    <!-- NUTRICIÓN PAE -->
+                    <div class="col-md-4">
+                      <div class="card-service">
+                        <div class="card-service-icon">
+                          <img src="Ima/icon-nutricion.png" alt="Nutrición PAE" class="icon-mini">
+                        </div>
+                        <h6 class="mb-1"><b>Nutrición PAE</b></h6>
+                        <p style="font-size:0.82rem;" class="mb-0">
+                           busca garantizar el acceso y permanencia de los estudiantes en colegios oficiales, a través del suministro de complementos 
+                           alimentarios para apoyar su bienestar y aprendizaje
+                        </p>
+                      </div>
+                    </div>
+                
+                    <!-- COMUNIDAD -->
+                    <div class="col-md-4">
+                      <div class="card-service">
+                        <div class="card-service-icon">
+                          <img src="Ima/icon-comunidad.png" alt="Comunidad" class="icon-mini">
+                        </div>
+                        <h6 class="mb-1"><b>Comunidad</b></h6>
+                        <p style="font-size:0.82rem;" class="mb-0">
+                          Liderazgo social, cultura y apoyo a familias.principalmente facilitando y reuniendo donaciones para abordar las 
+                          necesidades de la comunidad y apoyar a las organizaciones 
+                          locales sin fines de lucro
+                        </p>
+                      </div>
+                    </div>
+                
+                  </div>
+                </div>
+                
+                </section>
+                
+                <!-- BANDA DE ESTADÍSTICAS EN NUMEROS-->
+                <section class="py-0">
+                  <div class="container">
+                    <div class="stats-band">
+                      <div class="row g-3 justify-content-center">
+                        <div class="col-6 col-md-3">
+                          <div class="stat-item">
+                            <div class="stat-number" data-target="1200">0</div>
+                            <div class="stat-label">Personas beneficiadas</div>
+                          </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                          <div class="stat-item">
+                            <div class="stat-number" data-target="300">0</div>
+                            <div class="stat-label">Niños con apoyo escolar</div>
+                          </div>
+                          </div>
+                          <div class="col-6 col-md-3">
+                           <div class="stat-item">
+                          <div class="stat-number" data-target="80">0</div>
+                          <div class="stat-label">Voluntarios activos</div>
+                          </div>
+                          </div>
+                         <div class="col-6 col-md-3">
+                         <div class="stat-item">
+                         <div class="stat-number" data-target="8">0</div>
+                        <div class="stat-label">Barrios intervenidos</div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+              </section>
+
+
+<!-- Servicios En el inicio 6 SERVICIOS PRINCIPALES-->
+<section class="py-5">
+  <div class="container">
+    <div class="mb-4 text-center">
+      <h2 class="content-title"><b>Algunos De Nuestros Servicios</b></h2>
+      <p class="content-subtitle">
+        Trabajamos desde un enfoque integral que combina acompañamiento educativo, nutricional y comunitario para
+        generar cambios sostenibles en el territorio.
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <!-- SERVICIO 1 -->
+      <div class="col-md-4">
+        <div class="what-card">
+          <div class="what-icon">
+            <img src="Ima/icon-SDOTACION.png" alt="Educación y acompañamiento escolar" class="icon-mini">
+          </div>
+          <h5 class="mb-1"><b>SUMINISTRO Y DOTACIÓN</b></h5>
+          <p style="font-size:0.88rem;">
+            Proceso mediante el cual la fundación adquiere y entrega los materiales, equipos e insumos necesarios para garantizar
+            el buen desarrollo de sus programas y actividades sociales
+          </p>
+        </div>
+      </div>
+
+      <!-- SERVICIO 2 -->
+      <div class="col-md-4">
+        <div class="what-card">
+          <div class="what-icon">
+            <img src="Ima/icon-PAMBIENTAL.png" alt="Nutrición y bienestar" class="icon-mini">
+          </div>
+          <h5 class="mb-1"><b>PROYECTOS AMBIENTALES.</b></h5>
+          <p style="font-size:0.88rem;">
+            Desarrollamos iniciativas que fomentan el cuidado del medio ambiente y la sostenibilidad en las comunidades.
+          </p>
+        </div>
+      </div>
+
+      <!-- SERVICIO 3 -->
+      <div class="col-md-4">
+        <div class="what-card">
+          <div class="what-icon">
+            <img src="Ima/icon-OCIVELES.png" alt="Desarrollo comunitario" class="icon-mini">
+          </div>
+          <h5 class="mb-1"><b>OBRAS CIVILES</b></h5>
+          <p style="font-size:0.88rem;">
+            Realizamos proyectos de construcción y mejoramiento de infraestructura que apoyan el desarrollo
+            comunitario y fortalecen los espacios de la fundación.
+          </p>
+        </div>
+      </div>
+      </div>
+      </div>
+      </section>
+
+<!-- Servicios En el inicio 2 PARA IR EDITANDO-->
+<section class="py-5">
+  <div class="container">
+    <div class="mb-4 text-center">
+      <!-- puedes agregar otro título o dejarlo vacío para pruebas -->
+    </div>
+
+    <div class="row g-4">
+      <!-- SERVICIO 1  -->
+      <div class="col-md-4">
+        <div class="what-card">
+          <div class="what-icon">
+            <img src="Ima/icon-saludrecreacion.png" alt="Servicio 1" class="icon-mini">
+          </div>
+          <h5 class="mb-1"><b>SALUD, RECREACIÓN Y EDUCACIÓN.
+            </b></h5>
+          <p style="font-size:0.88rem;">
+            Impulsamos iniciativas que promueven el bienestar integral, el acceso a la educación y la participación en actividades 
+            recreativas para fortalecer el desarrollo de la comunidad.
+          </p>
+        </div>
+      </div>
+
+      <!-- SERVICIO 2  -->
+      <div class="col-md-4">
+        <div class="what-card">
+          <div class="what-icon">
+            <img src="Ima/icon-cultura.png" alt="Servicio 2" class="icon-mini">
+          </div>
+          <h5 class="mb-1"><b>CULTURA Y ARTESANÍAS</b></h5>
+          <p style="font-size:0.88rem;">
+            Apoyamos la preservación cultural y el talento artesanal mediante proyectos que valoran las tradiciones y potencian las 
+            habilidades creativas de las comunidades.
+          </p>
+        </div>
+      </div>
+
+      <!-- SERVICIO 3 -->
+      <div class="col-md-4">
+        <div class="what-card">
+          <div class="what-icon">
+            <img src="Ima/icon-aguapotable.png" alt="Servicio 3" class="icon-mini">
+          </div>
+          <h5 class="mb-1"><b>SANEAMIENTO BASICO Y AGUA POTABLE</b></h5>
+          <p style="font-size:0.88rem;">
+            Desarrollamos acciones que garantizan el acceso a agua segura y a condiciones adecuadas de saneamiento para 
+            mejorar la salud y la calidad de vida.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- GALERÍA DE IMÁGENES - GALERIA DE ACTIVIDAES -->
+    <section class="py-5">
+      <div class="container">
+        <div class="mb-4 text-center">
+          <h2 class="content-title"><b>Galería de actividades</b></h2>
+          <p class="content-subtitle">
+            Algunas de las jornadas, procesos y acompañamientos que hemos realizado con las comunidades.
+          </p>
+        </div>
+
+        <div id="carouselFundesuc" class="carousel slide carousel-clientes"
+             data-bs-ride="carousel" data-bs-interval="4000">
+          <div class="carousel-inner">
+
+            <!-- SLIDE carrusel 1 de la galeria del inicio -->
+            <div class="carousel-item active">
+              <div class="row g-4">
+                <div class="col-md-4">
+                  <div class="mockup-card">
+                    <img src="Ima/galeria-inicio.jpeg" class="mockup-img" alt="Actividad 1" onclick="openImageModal(this.src)"
+                      style="cursor:pointer;">
+
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="mockup-card">
+                  <img src="Ima/galeria2.jpeg" class="mockup-img" alt="Actividad 2" onclick="openImageModal(this.src)"
+                    style="cursor:pointer;">
+
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="mockup-card">
+                    <img src="Ima/galeria3.jpeg" class="mockup-img" alt="Actividad 3" onclick="openImageModal(this.src)"
+                      style="cursor:pointer;">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+            <!-- SLIDE carrusel 2 de la galeria del inicio -->
+            <div class="carousel-item">
+              <div class="row g-4">
+                <div class="col-md-4">
+                  <div class="mockup-card">
+                    <img src="Ima/galeria4.jpeg" class="mockup-img" alt="Actividad 4" onclick="openImageModal(this.src)"
+                      style="cursor:pointer;">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="mockup-card">
+                    <img src="Ima/galeria5.jpeg" class="mockup-img" alt="Actividad 5" onclick="openImageModal(this.src)"
+                      style="cursor:pointer;">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="mockup-card">
+                  <img src="Ima/galeria6.jpeg" class="mockup-img" alt="Actividad 6" onclick="openImageModal(this.src)"
+                    style="cursor:pointer;">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- FLECHAS IZQUIERDA / DERECHA -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselFundesuc" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselFundesuc" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="py-4">
+      <div class="container">
+        <div class="mb-4 text-center">
+          <h2 class="content-title"><b>Historias que inspiran</b></h2>
+          <p class="content-subtitle">
+            Detrás de cada número hay personas, sueños y familias que hoy ven nuevas oportunidades gracias al trabajo
+            en red.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="testimonial-card">
+              <p>
+                “Gracias a Fundesuc mis hijos reciben acompañamiento escolar y alimentación. Hoy se sienten más seguros,
+                motivados y con ganas de seguir estudiando.”
+              </p>
+              <div class="testimonial-author">Comudidad-Agradecimentos</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="testimonial-card">
+              <p>
+                “Ser voluntario en Fundesuc me ha permitido conocer realidades que no veía y aportar desde mis habilidades.
+                Cada jornada es una oportunidad para aprender y servir.”
+              </p>
+              <div class="testimonial-author">Enrique-Voluntario</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- ALIADOS -->
+<section class="aliados-section">
+  <div class="container">
+    <div class="ally-strip">
+      <div class="row align-items-center g-4">
+        
+        <!-- Texto -->
+        <div class="col-md-5">
+          <div>
+            <div class="ally-strip-title">
+              Organizaciones con las que mantenemos articulación institucional
+            </div>
+            <div class="ally-strip-text">
+              Relacionamos esfuerzos con entidades para facilitar la coordinación, el intercambio
+              de información y el fortalecimiento de acciones
+              que aportan al desarrollo social de nuestras comunidades.
+            </div>
+          </div>
+        </div>
+
+        <!-- Carrusel de logos -->
+        <div class="col-md-7">
+          <div id="aliadosCarousel" class="carousel slide aliados-carousel" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+
+              <!-- SLIDE 1 -->
+              <div class="carousel-item active">
+                <div class="ally-logo-wrapper">
+                  <img src="Ima/aliado1.png" alt="Aliado 1" class="ally-logo">
+                </div>
+                <div class="ally-logo-wrapper">
+                  <img src="Ima/aliado2.png" alt="Aliado 2" class="ally-logo">
+                </div>
+                <div class="ally-logo-wrapper">
+                  <img src="Ima/aliado3.png" alt="Aliado 3" class="ally-logo">
+                </div>
+              </div>
+
+              <!--
+              SLIDE 2 (ejemplo, por si luego agregas más aliados)
+              <div class="carousel-item">
+                <div class="ally-logo-wrapper">
+                  <img src="Ima/gobernacion.png" alt="Aliado 4" class="ally-logo">
+                </div>
+                <div class="ally-logo-wrapper">
+                  <img src="Ima/aliado5.png" alt="Aliado 5" class="ally-logo">
+                </div>
+                <div class="ally-logo-wrapper">
+                  <img src="Ima/aliado6.png" alt="Aliado 6" class="ally-logo">
+                </div>
+              </div>
+              -->
+
+            </div>
+
+            <!-- Flechas (puedes dejarlas o comentarlas) -->
+            <!--
+            <button class="carousel-control-prev" type="button" data-bs-target="#aliadosCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#aliadosCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+            -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+    
+
+  <!-- MODAL PARA VER IMÁGENES EN GRANDE -->
+  <div id="imageModal" class="img-modal">
+    <span class="img-close" onclick="closeImageModal()">×</span>
+    <img class="img-modal-content" id="modalImage">
+  </div>
+
+   <!-- BOTÓN WHATSAPP -->
+  <a href="https://wa.me/573219624053?text=Hola%20Fundesuc,%20quisiera%20más%20información."
+   class="whatsapp-float"
+   target="_blank"
+   rel="noopener"
+   aria-label="Contactar a Fundesuc por WhatsApp">
+  <img src="Ima/whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+</a>
+
+  <!-- FOOTER -->
+<footer class="footer-fundesuc">
+  <div class="container">
+    <div class="row gy-4 align-items-start">
+      
+      <!-- Columna 1: Logo + descripción corta -->
+      <div class="col-md-4 text-center text-md-start">
+        <div class="footer-brand">
+          <div class="footer-logo-mini">
+            <img src="Ima/logo-fundesuc.png" alt="Logo Fundesuc">
+          </div>
+          <div>
+            <h4 class="footer-title">
+              FUNDACIÓN PARA EL DESARROLLO SOCIAL Y AMBIENTAL DE SUCRE.
+            </h4>
+            <p class="footer-text">
+              Trabajamos por el desarrollo social, educativo y ambiental de las
+              comunidades más vulnerables, con transparencia y compromiso humano.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columna 2: Contacto -->
+      <div class="col-md-4 text-center text-md-start">
+        <h5 class="footer-subtitle">Contacto</h5>
+        <div class="footer-contact">
+          <p><strong>Email:</strong> 
+            <a href="mailto:fundesuc2018@gmail.com">fundesuc2018@gmail.com</a>
+          </p>
+          <p><strong>Tel:</strong> 321 462 4053</p>
+          <p><strong>Ubicación:</strong> Sucre, Colombia</p>
+        </div>
+      </div>
+
+      <!-- Columna 3: Enlaces + “redes” -->
+      <div class="col-md-4 text-center text-md-start">
+        <h5 class="footer-subtitle">Enlaces rápidos</h5>
+        <ul class="footer-links">
+          <li><a href="Index.html">Inicio</a></li>
+          <li><a href="Nosotros.html">Nosotros</a></li>
+          <li><a href="Servicios.html">Cómo donar</a></li>
+          <li><a href="Galeria.html">Galería</a></li>
+          <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+
+          <!-- 
+        <div class="footer-social">
+          <span class="footer-social-label">Síguenos:</span>
+          Puedes luego cambiar los href con los enlaces reales 
+          <a href="#" aria-label="Facebook Fundesuc">F</a>
+          <a href="#" aria-label="Instagram Fundesuc">I</a>
+          <a href="#" aria-label="YouTube Fundesuc">Y</a>
+        </div>
+        -->
+      </div>
+
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <p class="footer-copy text-center">
+      © <span id="yearFooter"></span> Fundesuc. Todos los derechos reservados.
+    </p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+
+  
+  // =========================
+  //  Año dinámico en el footer
+  // =========================
+  const yearEl = document.getElementById("yearFooter");
+  if (yearEl) {
+    yearEl.textContent = new Date().getFullYear();
+  }
+
+  // =========================
+  //  Contadores animados
+  // =========================
+  const counters = document.querySelectorAll(".stat-number");
+  let countersStarted = false;
+
+  function animateCounters() {
+    if (countersStarted) return;
+    const band = document.querySelector(".stats-band");
+    if (!band) return;
+
+    const rect = band.getBoundingClientRect();
+    if (rect.top < window.innerHeight && rect.bottom >= 0) {
+      countersStarted = true;
+
+      counters.forEach(counter => {
+        const target = parseInt(counter.getAttribute("data-target"), 10);
+        let value = 0;
+        const step = Math.max(1, Math.floor(target / 80));
+
+        const interval = setInterval(() => {
+          value += step;
+          if (value >= target) {
+            value = target;
+            clearInterval(interval);
+          }
+          counter.textContent = value.toLocaleString("es-CO");
+        }, 20);
+      });
+    }
+  }
+
+  window.addEventListener("scroll", animateCounters);
+  animateCounters();
+
+  // =========================
+  //  MODAL PARA IMÁGENES
+  // =========================
+
+  // Abre el modal y pone la imagen que se clickea
+  function openImageModal(src) {
+    const modal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("modalImage");
+    if (!modal || !modalImg) return;
+
+    modalImg.src = src;
+    modal.style.display = "block";
+  }
+
+  // Cierra el modal (usado por la X)
+  function closeImageModal() {
+    const modal = document.getElementById("imageModal");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+
+  // Cerrar al hacer clic fuera de la imagen
+  window.addEventListener("click", function (e) {
+    const modal = document.getElementById("imageModal");
+    if (modal && e.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+</script>
+
+</body>
+</html>

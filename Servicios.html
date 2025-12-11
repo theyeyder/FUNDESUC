@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fundesuc | Servicios</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Meta tags para SEO y accesibilidad -->
+  <meta name="description" content="Fundesuc ofrece un portafolio integral de servicios sociales, ambientales y comunitarios en Sucre, Colombia.">
+  <meta name="keywords" content="fundesuc, servicios sociales, proyectos ambientales, desarrollo comunitario, Sucre Colombia">
+  <meta name="author" content="Fundesuc">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="Index.html">
+        <div class="logo-mini">
+          <img src="Ima/logo-fundesuc.png" width="90" height="90" alt="Logo Fundesuc">
+        </div>
+        <span>Fundesuc</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-label="Menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+        <ul class="navbar-nav gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="Index.html"><b>Inicio</b></a></li>
+          <li class="nav-item"><a class="nav-link" href="Nosotros.html"><b>Nosotros</b></a></li>
+          <li class="nav-item"><a class="nav-link active" href="Servicios.html" aria-current="page"><b>Servicios</b></a></li>
+          <li class="nav-item"><a class="nav-link" href="Galeria.html"><b>Galería</b></a></li>
+          <li class="nav-item"><a class="nav-link" href="Contacto.html"><b>Contacto</b></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- HERO SUPERIOR DE SERVICIOS-->
+<section class="policy-hero">
+  <div class="container text-center">
+    <h1 class="policy-hero-title">
+      Servicios<br>
+    </h1>
+  </div>
+</section>
+
+<!-- PORTAFOLIO DE SERVICIOS – TARJETA ÚNICA EN GRID (3 + 3) -->
+<section class="py-5" aria-labelledby="portafolio-titulo">
+  <div class="container">
+    <div class="valores-block p-4" style="max-width:1150px; margin:auto;">
+
+      <!-- Título general -->
+      <div class="services-hero text-center mb-4">
+        <h1 id="portafolio-titulo" class="content-title"><b>Portafolio Institucional de Servicios</b></h1>
+        <p class="content-subtitle" style="max-width:800px; margin:auto;">
+          FUNDESUC ofrece un portafolio integral de servicios agrupados por líneas estratégicas,
+          que responden a necesidades sociales, técnicas, comunitarias y organizacionales.
+        </p>
+      </div>
+
+
+      <!-- GRID DE CATEGORÍAS (3 + 3) DENTRO DE LA MISMA TARJETA -->
+      <div class="row g-4 portfolio-grid">
+
+        <!-- 1. Suministro y Servicios Técnicos -->
+        <div class="col-md-4">
+          <div class="portfolio-block h-100">
+            <h4 class="portfolio-title">
+              <img src="Ima/icon-suministroServicio.png" class="portfolio-icon" alt="Ícono suministro" width="34" height="34">
+              Suministro y Servicios Técnicos
+            </h4>
+            <ul class="portfolio-list">
+              <li>Suministro y dotación</li>
+              <li>Sector agropecuario</li>
+              <li>Sector industrial y agroindustrial</li>
+              <li>Topografía</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 2. Consultoría y Gestión -->
+        <div class="col-md-4">
+          <div class="portfolio-block h-100">
+            <h4 class="portfolio-title">
+              <img src="Ima/icon-consultoria.png" class="portfolio-icon" alt="Ícono consultoría" width="34" height="34">
+              Consultoría y Gestión
+            </h4>
+            <ul class="portfolio-list">
+              <li>Asesorías, consultorías e interventorías en programas de gestión</li>
+              <li>Desarrollo organizacional y empresarial</li>
+              <li>Evaluación financiera y planes de negocio</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 3. Proyectos y Obras -->
+        <div class="col-md-4">
+          <div class="portfolio-block h-100">
+            <h4 class="portfolio-title">
+              <img src="Ima/icon-obras.png" class="portfolio-icon" alt="Ícono proyectos y obras" width="34" height="34">
+              Proyectos y Obras
+            </h4>
+            <ul class="portfolio-list">
+              <li>Proyectos ambientales</li>
+              <li>Obras civiles</li>
+              <li>Saneamiento básico y agua potable</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 4. Proyección Social y Bienestar -->
+        <div class="col-md-4">
+          <div class="portfolio-block h-100">
+            <h4 class="portfolio-title">
+              <img src="Ima/icon-social.png" class="portfolio-icon" alt="Ícono proyección social" width="34" height="34">
+              Proyección Social y Bienestar
+            </h4>
+            <ul class="portfolio-list">
+              <li>Proyección social</li>
+              <li>Salud, recreación y educación</li>
+              <li>Recreación y deporte</li>
+              <li>Cultura y artesanías</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 5. Formación y Capacitación -->
+        <div class="col-md-4">
+          <div class="portfolio-block h-100">
+            <h4 class="portfolio-title">
+              <img src="Ima/icon-capacitacion.png" class="portfolio-icon" alt="Ícono capacitación" width="34" height="34">
+              Formación y Capacitación
+            </h4>
+            <ul class="portfolio-list">
+              <li>Capacitación</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 6. Programas Especiales -->
+        <div class="col-md-4">
+          <div class="portfolio-block h-100">
+            <h4 class="portfolio-title">
+              <img src="Ima/icon-programas.png" class="portfolio-icon" alt="Ícono programas especiales" width="34" height="34">
+              Programas Especiales
+            </h4>
+            <ul class="portfolio-list">
+              <li>Programas de protección integral para niños, niñas y adolescentes y sus familias</li>
+              <li>Programa de adulto mayor (Colombia Mayor)</li>
+              <li>Programas de alimentación escolar (PAE)</li>
+            </ul>
+          </div>
+        </div>
+
+      </div> <!-- /row -->
+    </div> <!-- /what-card -->
+  </div>
+</section>
+
+<!-- ================================================
+TÍTULO ENTRE TARJETA PRINCIPAL Y SERVICIOS
+==================================================== -->
+<div class="services-divider-title text-center">
+  <h2 class="services-big-title">
+    Portafolio Completo de Servicios Institucionales
+  </h2>
+</div>
+
+
+
+  <main>
+     <div class="container page-wrapper mt-3"></div>
+    <!--================================================
+      TARJETAS GRANDES DE SERVICIOS TODOS LOS SERVICIOS TOTAL 18
+      =======================================================-->
+    
+
+      <section class="mb-4" aria-labelledby="servicios-completos">
+        <div class="row g-4">
+
+          <!-- 1. Suministro y Dotación -->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/Sumi-dotacion.png" alt="Suministro y dotación - Materiales y equipos para proyectos sociales" width="400" height="200" loading="lazy">
+              </div> 
+              <h4 class="mt-3"><b>Suministro y Dotación</b></h4>
+              <p style="font-size:0.9rem;">
+                Proveemos equipos, materiales e insumos esenciales para fortalecer proyectos sociales, comunitarios y productivos, 
+                garantizando calidad, oportunidad y eficiencia.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> entrega de dotaciones, insumos técnicos, herramientas y materiales especializados.
+              </p>
+            </div>
+          </div>
+
+          <!-- 2. Sector Agropecuario -->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/imagen-sectoragorpecuario.png" alt="Sector agropecuario - Programas para adultos mayores y alimentación escolar" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Sector Agropecuario</b></h4>
+              <p style="font-size:0.9rem;">
+                Impulsamos procesos productivos agropecuarios mediante asistencia técnica, provisión de insumos y fortalecimiento de 
+                capacidades para mejorar la productividad rural.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b>apoyo técnico agropecuario, insumos agrícolas, acompañamiento
+                 en buenas prácticas y fortalecimiento rural.
+              </p>
+            </div>
+          </div>
+
+          <!-- 3. Sector Industrial y Agroindustrial -->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-industrialAgr.png" alt="Sector industrial y agroindustrial - Proyectos de abastecimiento productivo" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Sector Industrial y Agroindustrial</b></h4>
+              <p style="font-size:0.9rem;">
+                Acompañamos a empresas y organizaciones en la optimización de procesos industriales
+                y agroindustriales, promoviendo eficiencia, 
+                innovación y sostenibilidad.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> apoyo técnico agropecuario, insumos agrícolas, acompañamiento en buenas
+                 prácticas y fortalecimiento rural.
+              </p>
+            </div>
+          </div>
+
+          <!-- 4. Asesorias, consultorias e interventorias en programas de gestion-->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-Asesorias-consultorias.png" alt="Asesorías y consultorías en gestión ambiental" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Asesorías, consultorías e interventorías en programas de gestión</b></h4>
+              <p style="font-size:0.9rem;">
+                Brindamos acompañamiento técnico y profesional para la correcta formulación, ejecución y supervisión
+                de proyectos y programas institucionales.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> consultoría estratégica, interventorías, formulación de proyectos y seguimiento técnico.
+              </p>
+            </div>
+          </div>
+            
+          <!-- 5. Proyectos Ambientales-->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-proyectosambientales.png" alt="Proyectos ambientales - Diseño y ejecución de infraestructura sostenible" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Proyectos Ambientales</b></h4>
+              <p style="font-size:0.9rem;">
+                Implementamos iniciativas que promueven la conservación, recuperación y uso responsable de 
+                los recursos naturales, con enfoque sostenible.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> gestión ambiental, educación ecológica, restauración y manejo de ecosistemas.
+              </p>
+            </div>
+          </div>
+
+          <!-- .6 Obras civiles -->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-obrasciviles.png" alt="Obras civiles - Construcción de infraestructura comunitaria" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Obras civiles</b></h4>
+              <p style="font-size:0.9rem;">
+                Ejecutamos proyectos de infraestructura que contribuyen al desarrollo comunitario, garantizando calidad, seguridad
+                y cumplimiento técnico.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> construcción, mantenimiento de infraestructura, obras
+                 menores y mejoramiento de espacios públicos.
+              </p>
+            </div>
+          </div>
+
+          <!-- 7. Topografía-->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-topografia.png" alt="Topografía - Estudios técnicos para proyectos de infraestructura" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Topografía</b></h4>
+              <p style="font-size:0.9rem;">
+                Desarrollamos estudios topográficos precisos para la planificación, diseño y ejecución de proyectos civiles,
+                 ambientales y comunitarios.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> levantamientos topográficos, georreferenciación, análisis de terreno y planos técnicos.
+              </p>
+            </div>
+          </div>
+
+          <!-- 8. Saneamiento basico y agua potable -->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-Saneamientoagua.png" alt="Saneamiento básico y agua potable - Proyectos de acceso a servicios básicos" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Saneamiento básico y agua potable</b></h4>
+              <p style="font-size:0.9rem;">
+                Desarrollamos acciones orientadas a mejorar el acceso al agua segura y
+                a sistemas de saneamiento para garantizar salud y bienestar.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> sistemas de agua potable, soluciones sanitarias, estudios y mantenimiento de redes.
+              </p>
+            </div>
+          </div>
+
+          <!-- 9. Desarrollo organizacional y empresarial-->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-Desarrollo.png" alt="Desarrollo organizacional y empresarial - Fortalecimiento institucional" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Desarrollo organizacional y empresarial</b></h4>
+              <p style="font-size:0.9rem;">
+                Fortalecemos la estructura interna de organizaciones y emprendimientos, potenciando su gestión, 
+                sostenibilidad y capacidad operativa.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> diagnóstico organizacional, planificación estratégica, modelos 
+                empresariales y fortalecimiento institucional.
+              </p>
+            </div>
+          </div>
+
+          <!-- 10. Evaluacion financiera y plenes de negocio-->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-Evaluacionfinanciera.png" alt="Evaluación financiera y planes de negocio - Análisis económico de proyectos" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Evaluación financiera y planes de negocio</b></h4>
+              <p style="font-size:0.9rem;">
+                Diseñamos y analizamos proyectos financieros y planes de negocio orientados al crecimiento
+                 económico y a la toma de decisiones informadas
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> estudios financieros, proyecciones, análisis de viabilidad y estructuración de modelos de negocio.
+              </p>
+            </div>
+          </div>
+
+          <!-- 11. Proyección social -->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-Proyecciónsocial.png" alt="Proyección social - Programas comunitarios y desarrollo social" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Proyección social</b></h4>
+              <p style="font-size:0.9rem;">
+                Diseñamos estrategias para fortalecer el tejido social y apoyar a comunidades en contextos
+                 de vulnerabilidad mediante acciones integrales.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> acompañamiento comunitario, intervención social, participación ciudadana y articulación institucional.
+              </p>
+            </div>
+          </div>
+
+          <!-- 12. Capacitación -->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-capacitacion.png" alt="Capacitación - Formación y desarrollo de habilidades" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Capacitación</b></h4>
+              <p style="font-size:0.9rem;">
+                Ofrecemos procesos formativos dirigidos a fortalecer competencias personales,
+                 laborales y comunitarias, fomentando el aprendizaje continuo.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> talleres, cursos, formación técnica, certificación y programas de habilidades sociales y productivas
+              </p>
+            </div>
+          </div>
+
+          <!-- 13. Salud recreación y educación-->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-Saludrecreacion.png" alt="Salud, recreación y educación - Programas integrales de bienestar" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Salud, recreación y educación</b></h4>
+              <p style="font-size:0.9rem;">
+                Promovemos el bienestar integral a través de acciones educativas, recreativas y
+                 de salud dirigidas a diferentes grupos poblacionales.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> jornadas de salud, actividades formativas, programas recreativos y promoción del desarrollo integral.
+              </p>
+            </div>
+          </div>
+
+          <!-- 14. Recreacion y deporte-->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-Recreaciondeporte.png" alt="Recreación y deporte - Actividades deportivas y recreativas comunitarias" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Recreación y deporte</b></h4>
+              <p style="font-size:0.9rem;">
+                Fomentamos estilos de vida saludables y fortalecemos habilidades sociales mediante
+                 programas lúdicos, deportivos y de integración.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> escuelas deportivas, actividades recreativas, torneos y eventos comunitarios.
+              </p>
+            </div>
+          </div>
+
+          <!-- 15. Cultura y artesanias -->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-Culturaartesanias.png" alt="Cultura y artesanías - Promoción del patrimonio cultural local" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Cultura y artesanías</b></h4>
+              <p style="font-size:0.9rem;">
+                Apoyamos la preservación cultural y la promoción de oficios tradicionales
+                 como medio de identidad, participación y desarrollo económico.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> talleres culturales, promoción artesanal, ferias y fortalecimiento cultural comunitario.
+              </p>
+            </div>
+          </div>
+           
+          <!-- 16. Programas de protección integral para niños, niñas y adolescentes y sus familias-->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-ProgramaSprotección.png" alt="Salud, recreación y educación - Programas integrales de bienestar" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Programas de protección integral para niños, niñas y adolescentes y sus familias</b></h4>
+              <p style="font-size:0.9rem;">
+                Diseñamos y ejecutamos programas orientados a garantizar derechos, prevenir vulneraciones
+                 y fortalecer entornos protectores.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> acompañamiento familiar, intervención psicosocial, articulación institucional y medidas de protección.
+              </p>
+            </div>
+          </div>
+
+          <!-- 17. Programa de adulto mayor (Colombia Mayor)-->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-Programadeadultomayor.png" alt="Recreación y deporte - Actividades deportivas y recreativas comunitarias" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Programa de adulto mayor (Colombia Mayor)</b></h4>
+              <p style="font-size:0.9rem;">
+                Acompañamos a la población adulta mayor mediante acciones sociales, recreativas
+                 y de apoyo que promueven su bienestar y calidad de vida.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> actividades recreativas, orientación social, apoyo emocional y gestión de beneficios.
+              </p>
+            </div>
+          </div>
+
+          <!-- 18. Programas de alimentación escolar (PAE) -->
+          <div class="col-md-4">
+            <div class="what-card">
+              <div class="service-photo">
+                <img src="Ima/serv-Programasdealimentación.png" alt="Cultura y artesanías - Promoción del patrimonio cultural local" width="400" height="200" loading="lazy">
+              </div>
+              <h4 class="mt-3"><b>Programas de alimentación escolar (PAE)</b></h4>
+              <p style="font-size:0.9rem;">
+                Contribuimos al desarrollo y permanencia escolar mediante la entrega de alimentos nutritivos y la promoción de hábitos saludables.
+              </p>
+              <p style="font-size:0.85rem; margin-bottom:0;">
+                <b>Incluye:</b> preparación o entrega de raciones, acompañamiento nutricional y seguimiento del programa.
+              </p>
+            </div>
+          </div>
+          
+      </section>
+    </div>
+  </main>
+
+  <!-- BOTÓN WHATSAPP -->
+  <a href="https://wa.me/573219624053?text=Hola%20Fundesuc,%20quisiera%20más%20información."
+   class="whatsapp-float"
+   target="_blank"
+   rel="noopener"
+   aria-label="Contactar a Fundesuc por WhatsApp">
+  <img src="Ima/whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+</a>
+
+
+  <!-- FOOTER -->
+  <footer class="footer-fundesuc">
+    <div class="container">
+      <div class="row gy-4 align-items-start">
+        
+        <!-- Columna 1: Logo + descripción corta -->
+        <div class="col-md-4 text-center text-md-start">
+          <div class="footer-brand">
+            <div class="footer-logo-mini">
+              <img src="Ima/logo-fundesuc.png" alt="Logo Fundesuc" width="52" height="52">
+            </div>
+            <div>
+              <h4 class="footer-title">
+                FUNDACIÓN PARA EL DESARROLLO SOCIAL Y AMBIENTAL DE SUCRE.
+              </h4>
+              <p class="footer-text">
+                Trabajamos por el desarrollo social, educativo y ambiental de las
+                comunidades más vulnerables, con transparencia y compromiso humano.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Columna 2: Contacto -->
+        <div class="col-md-4 text-center text-md-start">
+          <h5 class="footer-subtitle">Contacto</h5>
+          <div class="footer-contact">
+            <p><strong>Email:</strong> 
+              <a href="mailto:fundesuc2018@gmail.com">fundesuc2018@gmail.com</a>
+            </p>
+            <p><strong>Tel:</strong> 321 962 4053</p>
+            <p><strong>Ubicación:</strong> Sucre, Colombia</p>
+          </div>
+        </div>
+
+        <!-- Columna 3: Enlaces + "redes" -->
+        <div class="col-md-4 text-center text-md-start">
+          <h5 class="footer-subtitle">Enlaces rápidos</h5>
+          <ul class="footer-links">
+            <li><a href="Index.html"><b>Inicio</b></a></li>
+            <li><a href="Nosotros.html"><b>Nosotros</b></a></li>
+            <li><a href="Servicios.html"><b>Servicios</b></a></li>
+            <li><a href="Galeria.html"><b>Galería</b></a></li>
+            <li><a href="Contacto.html"><b>Contacto</b></a></li>
+          </ul>
+
+           <!-- 
+        <div class="footer-social">
+          <span class="footer-social-label">Síguenos:</span>
+          Puedes luego cambiar los href con los enlaces reales 
+          <a href="#" aria-label="Facebook Fundesuc">F</a>
+          <a href="#" aria-label="Instagram Fundesuc">I</a>
+          <a href="#" aria-label="YouTube Fundesuc">Y</a>
+        </div>
+        -->
+
+      </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <p class="footer-copy text-center">
+        © <span id="yearFooter"></span> Fundesuc. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Año actual en el footer
+    const yearSpan = document.getElementById("yearFooter");
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+
+    // Contadores animados (si los hay)
+    const counters = document.querySelectorAll(".stat-number");
+    let countersStarted = false;
+
+    function animateCounters() {
+      if (countersStarted) return;
+      const band = document.querySelector(".stats-band");
+      if (!band) return;
+
+      const rect = band.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom >= 0) {
+        countersStarted = true;
+
+        counters.forEach(counter => {
+          const target = parseInt(counter.getAttribute("data-target"), 10);
+          let value = 0;
+          const step = Math.max(1, Math.floor(target / 80));
+
+          const interval = setInterval(() => {
+            value += step;
+            if (value >= target) {
+              value = target;
+              clearInterval(interval);
+            }
+            counter.textContent = value.toLocaleString("es-CO");
+          }, 20);
+        });
+      }
+    }
+
+    window.addEventListener("scroll", animateCounters);
+    animateCounters();
+  </script>
+  
+  <!-- Script mejorado para el efecto del título -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const servicesTitle = document.querySelector('.services-big-title');
+      
+      if (!servicesTitle) return;
+      
+      // Solo activar en dispositivos móviles
+      const isMobile = window.innerWidth <= 768;
+      
+      if (isMobile) {
+        let lastScrollTop = 0;
+        let titleAnimationEnabled = true;
+        
+        function handleScroll() {
+          if (!titleAnimationEnabled) return;
+          
+          const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+          const isScrollingDown = scrollTop > lastScrollTop;
+          
+          // Obtener posición del título
+          const titleRect = servicesTitle.getBoundingClientRect();
+          const isTitleVisible = titleRect.top < window.innerHeight && titleRect.bottom >= 0;
+          
+          // Si el título es visible y el usuario está scrolleando hacia abajo
+          if (isTitleVisible && isScrollingDown) {
+            // Agregar clase para animación
+            servicesTitle.classList.add('scrolled');
+            
+            // Deshabilitar animación temporalmente para evitar spam
+            titleAnimationEnabled = false;
+            
+            // Remover la clase después de la animación
+            setTimeout(() => {
+              servicesTitle.classList.remove('scrolled');
+            }, 600);
+            
+            // Rehabilitar animación después de 1.5 segundos
+            setTimeout(() => {
+              titleAnimationEnabled = true;
+            }, 1500);
+          }
+          
+          lastScrollTop = scrollTop;
+        }
+        
+        // Usar Intersection Observer para mejor rendimiento
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting && titleAnimationEnabled) {
+              // Cuando el título entra en vista
+              setTimeout(() => {
+                servicesTitle.classList.add('scrolled');
+                setTimeout(() => {
+                  servicesTitle.classList.remove('scrolled');
+                }, 600);
+              }, 300);
+            }
+          });
+        }, {
+          threshold: 0.3
+        });
+        
+        observer.observe(servicesTitle);
+        
+        // También escuchar scroll para detectar cuando el usuario pasa por el título
+        window.addEventListener('scroll', handleScroll, { passive: true });
+      }
+      
+      // Efecto adicional: También animar cuando el título entra en vista por primera vez
+      const titleObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // Agregar un pequeño efecto cuando entra en vista
+            entry.target.style.animation = 'fadeSlideUp 0.6s ease-out, pulseMobile 0.8s ease-out 0.6s';
+            
+            // Remover la animación extra después de que termine
+            setTimeout(() => {
+              entry.target.style.animation = '';
+            }, 1400);
+            
+            titleObserver.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.2
+      });
+      
+      titleObserver.observe(servicesTitle);
+    });
+  </script>
+</body>
+</html>
