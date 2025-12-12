@@ -64,7 +64,7 @@ FUNDESUC/
 ├── Servicios.html
 ├── Galeria.html
 │
-├── Styles.css
+├── Styles/(Styles.css)
 │
 ├── Galeria/
 │   └── (Imágenes y videos de la galería)
